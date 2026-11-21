@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secretscan"
+version = "1.0.0"
+description = "DevSecOps CLI that scans code for hardcoded secrets (regex + entropy) and risky Python patterns (AST)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Maitri" }]
+keywords = ["devsecops", "secret-scanning", "static-analysis", "appsec", "sast"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Security",
+    "Environment :: Console",
+]
+
+[project.scripts]
+secretscan = "secretscan:main"
+
+[tool.setuptools]
+py-modules = ["secretscan"]
