@@ -1,6 +1,6 @@
 # secretscan
 
-[![CI](https://github.com/YOUR-USERNAME/secretscan/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-USERNAME/secretscan/actions/workflows/ci.yml)
+[![CI](https://github.com/maitrisv/secretscan/actions/workflows/ci.yml/badge.svg)](https://github.com/maitrisv/secretscan/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
@@ -21,7 +21,7 @@ The process exits non-zero when findings reach a chosen severity, so a pipeline 
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/secretscan.git
+git clone https://github.com/maitrisv/secretscan.git
 cd secretscan
 
 # run the bundled demo (fake secrets are generated at runtime)
